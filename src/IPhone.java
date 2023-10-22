@@ -1,14 +1,13 @@
-public class iPhone {
-    private ReprodutorMusical reprodutor;
+public class IPhone {
     private AparelhoTelefonico telefone;
     private NavegadorInternet navegador;
 
-    public iPhone(ReprodutorMusical reprodutor, AparelhoTelefonico telefone, NavegadorInternet navegador) {
-        this.reprodutor = reprodutor;
+    public IPhone(ReprodutorMusical reprodutor, AparelhoTelefonico telefone, NavegadorInternet navegador) {
         this.telefone = telefone;
         this.navegador = navegador;
     }
 
+   
     public void ligar() {
         telefone.ligar();
     }
